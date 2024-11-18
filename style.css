@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/WhatsApp\ Image\ 2024-11-18\ at\ 01.45.24_a971c168.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+.navbar{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.navbar:hover{
+    color: #9eb2c2;
+}
+.logo {
+    width: 130px;
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.content {
+    top: 60%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 64px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.content h1 span {
+    color: #ff3753;
+}
+
+.heading{
+    color: #578cd1;
+}
+
+.content button {
+    background: transparent;
+    border: 3px solid #52072a;
+    outline: none;
+    padding: 12px 25px;
+    color: #6e1437;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+.content button:hover{
+    background-color: #8ca3b6;
+}
+.content button img {
+    margin-left: 10px;
+    width: 18px;
+}
+
+.launching-time {
+    display: flex;
+    color: #0c2d47;
+}
+
+.launching-time div {
+    flex-basis: 100ppx;
+}
+
+.launching-time div p {
+    font-size: 60px;
+    margin-bottom: -14px;
+    margin-left: 20px;
+}
+
+.launching-time div span {
+    margin-left: 18px;
+}
+
+/* .rocket {
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket {
+    0% {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 105%;
+        opacity: 1;
+    } */
